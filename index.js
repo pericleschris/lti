@@ -16,7 +16,7 @@ lti.setup(
     cookies: {
       domain: ".jdidqp.easypanel.host",
     },
-    ltiaas: true,
+    ltiaas: false,
     devMode: false, // Set DevMode to true if the testing platform is in a different domain and https is not being used
   }
 );
