@@ -13,10 +13,7 @@ lti.setup(
   },
   {
     staticPath: path.join(__dirname, "./public"), // Path to static files
-    cookies: {
-      domain: ".jdidqp.easypanel.host",
-    },
-    ltiaas: false,
+    ltiaas: true,
     devMode: false, // Set DevMode to true if the testing platform is in a different domain and https is not being used
   }
 );
